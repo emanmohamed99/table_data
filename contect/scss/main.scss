@@ -1,0 +1,19 @@
+@import "./utils/variable";
+@import "./utils/colors";
+@import "./utils/typography";
+@import "./components/search";
+@import "./components/table";
+@import "./common/general";
+@import "./components/button";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  font-family: "Poppins";
+}
+img {
+  height: 100%;
+}

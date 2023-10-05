@@ -1,0 +1,23 @@
+$colors-map: (
+  "white": $white,
+  "charcoal": $charcoal,
+  "onyx": $onyx,
+  "denimBlue": $denimBlue,
+  "brightGray": $brightGray,
+  "Gainsboro": $Gainsboro,
+  "rustyRed": $rustyRed,
+  "antiFlashWhite": $antiFlashWhite,
+  "Lavender": $Lavender,
+  "black": $black,
+);
+
+// @each Sass loop to generate classes
+@each $name, $hex-value in $colors-map {
+  .#{$name} {
+    color: $hex-value;
+  }
+
+  .#{$name}-bg {
+    background-color: $hex-value;
+  }
+}

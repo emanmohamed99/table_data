@@ -1,0 +1,195 @@
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.charcoal {
+  color: #383f51;
+}
+
+.charcoal-bg {
+  background-color: #383f51;
+}
+
+.onyx {
+  color: #343a40;
+}
+
+.onyx-bg {
+  background-color: #343a40;
+}
+
+.denimBlue {
+  color: #233eae;
+}
+
+.denimBlue-bg {
+  background-color: #233eae;
+}
+
+.brightGray {
+  color: #eaeaea;
+}
+
+.brightGray-bg {
+  background-color: #eaeaea;
+}
+
+.Gainsboro {
+  color: #dfdfdf;
+}
+
+.Gainsboro-bg {
+  background-color: #dfdfdf;
+}
+
+.rustyRed {
+  color: #dc3545;
+}
+
+.rustyRed-bg {
+  background-color: #dc3545;
+}
+
+.antiFlashWhite {
+  color: #f2f2f2;
+}
+
+.antiFlashWhite-bg {
+  background-color: #f2f2f2;
+}
+
+.Lavender {
+  color: #E7E7FA;
+}
+
+.Lavender-bg {
+  background-color: #E7E7FA;
+}
+
+.black {
+  color: black;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.nav {
+  margin: 1em 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav form .search {
+  display: flex;
+  margin: 1em;
+  background-color: #f8f9f8;
+  border-radius: 1.5em;
+  width: 300px;
+  padding: 0.5em;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  align-content: center;
+}
+.nav form .search:hover {
+  border: 1px solid black;
+  border-radius: 1.5em;
+}
+.nav form .search:focus {
+  border: 1px solid black;
+  border-radius: 1.5em;
+}
+.nav form .search input {
+  width: 80%;
+  border: none;
+  padding: 0.5em;
+  background-color: #f8f9f8;
+  border: none;
+  outline: none;
+}
+.nav form .search input:focus, .nav form .search input:hover {
+  width: 100%;
+  border: none;
+  background-color: #f8f9f8;
+  outline: none;
+}
+.nav form button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.nav form button:focus {
+  background-color: transparent;
+}
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px #dfdfdf solid;
+}
+table td {
+  text-align: left;
+  padding: 1.5em;
+}
+table th {
+  text-align: left;
+  padding: 8px;
+  background-color: #233eae;
+  color: #fff;
+}
+table tr {
+  border: 1px #dfdfdf solid;
+}
+table tr:nth-child(even) {
+  background-color: rgb(231, 231, 250);
+}
+
+.mystyle {
+  display: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+#pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+#pagination button {
+  background-color: #E7E7FA;
+  padding: 0.5em 1em;
+  margin: 0.3em;
+  border-radius: 0.5em;
+}
+#pagination button:active {
+  background-color: orange;
+  color: white;
+}
+#pagination button:focus {
+  background-color: orange;
+  color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+img {
+  height: 100%;
+}
